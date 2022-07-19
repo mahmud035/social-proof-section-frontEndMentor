@@ -190,3 +190,18 @@ body {
   line-height: 26px;
   padding: 1.5rem 0 12px;
 }
+
+/** Moving user-card down */
+.user-card-01 {
+  max-height: 249px;
+}
+
+.user-card-02 {
+  margin-top: 20px;
+  max-height: 249px;
+}
+
+.user-card-03 {
+  margin-top: 40px;
+  max-height: 249px;
+}
