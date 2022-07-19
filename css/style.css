@@ -81,7 +81,7 @@ body {
 
 .heading-and-rating-container {
   display: flex;
-  padding: 1rem 2rem 5rem 0;
+  padding: 1rem 2rem 1.5rem 0;
   align-items: start;
 }
 
@@ -147,4 +147,46 @@ body {
 
 .user-rating.user-rating-03 {
   margin-left: 100px;
+}
+
+/* User Card Container */
+.user-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.user-card {
+  background-color: var(--very-dark-magenta);
+  color: var(--white);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.user-card > .user-info {
+  display: flex;
+  gap: 1.1rem;
+  align-items: center;
+}
+
+.user-card > .user-info > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.user-info .user-name h4 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.user-info .user-name p {
+  color: var(--soft-pink);
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.user-card > .user-review {
+  line-height: 26px;
+  padding: 1.5rem 0 12px;
 }
