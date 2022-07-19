@@ -78,6 +78,7 @@ body {
   background-repeat: no-repeat no-repeat;
   background-position: left top, right bottom;
   background-size: cover cover;
+  /* INFO: don't need to use comma(,). why? */
 }
 
 .social-proof-section-content {
