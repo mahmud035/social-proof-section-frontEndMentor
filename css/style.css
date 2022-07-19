@@ -72,6 +72,12 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: var(--white);
+  background-image: url('../images/bg-pattern-top-desktop.svg'),
+    url('../images/bg-pattern-bottom-desktop.svg');
+
+  background-repeat: no-repeat no-repeat;
+  background-position: left top, right bottom;
+  background-size: cover cover;
 }
 
 .social-proof-section-content {
